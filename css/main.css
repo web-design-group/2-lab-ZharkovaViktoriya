@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+/*Первый экран*/
+header{
+    padding: 50px 0;
+    width: 1200px;
+    margin:0 70px;
+    position: relative;
+    z-index:2;
+}
+
+.first_screen{
+    background-color: white;
+    width: 100%;
+    margin-bottom:240px;
+}
+body{
+    font-family:'Inter',sans-serif;
+    color:black;
+    font-weight: 400;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+
+header nav{
+    float:right;
+    width: 30%;
+}
+
+header nav ul{
+    list-style:none; 
+    display:flex; 
+    justify-content: space-between;
+}
+.first_screen span{
+    font-weight: 700;
+}
+.content{
+    padding-bottom: 100px;
+    position:relative;
+    margin-left: 70px;
+}
+.content_info{
+    width: 800px;
+    padding-top: 180px;
+}
+.first_screen .content img{
+    position:absolute;
+    right:0;
+    top:-120px;
+    z-index:1;
+}
+.content p{
+    margin: 40px 0;
+}
+.content_info .btn{
+    background:black;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 0;
+    transition: all 500ms ease;
+}
+.content_info .btn:hover{
+    background:#058CDF;
+    transform: scale(1.1)
+}
+.btn{
+    color:white;
+    text-decoration: none;
+    font-size:16px;
+}
+/*Второй экран*/
+.second_screen{
+    background: black;
+    color:white;
+}
+.second_screen .content{
+    padding-bottom: 250px;
+}
+
+.second_screen .content h2{
+    padding-top:70px;
+}
+.second_screen .content p{
+    margin-right: 260px;
+}
+#day{
+    font-family: 'Kelly Slab',sans-serif;
+    font-size:32px;
+    color: #058CDF;
+    border: #058CDF;
+    border-style:dotted;
+    padding: 5px 15px;
+}
+#img2{
+    right: 0;
+    bottom: -15px;
+    position:absolute;
+}
+footer{
+    background-color: black;
+    color:white;
+    padding-left: 70px;
+}
+ /*Вторая страница*/
+.cinema{
+    width: 1200px;
+ }
+.cinema h2{
+    font-family:'Playfair Display SC', sans-serif;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.cinema h3{
+    font-weight: 500;
+}
+.cinema ul{
+    padding-left: 30px;
+    margin:40px 0;
+}
+#rec-img1{
+    float:right;
+}
+#rec-img2{
+    float:left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+#rec-img3{
+    float:right;
+}
